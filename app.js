@@ -35,7 +35,7 @@ app.use('/dist', express.static(path.join(__dirname, 'node_modules/socket.io-cli
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/tchat', tchatRouter);
-
+ 
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
