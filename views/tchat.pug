@@ -1,4 +1,8 @@
 extends layout
 
 block content
-  h1 Bienvenue sur le tchat
+    h1 Bienvenue sur le tchat
+
+block js
+    script(src="/dist/socket.io.js")
+    script(src="/javascripts/tchat-client.js")
